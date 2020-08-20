@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html style='overflow-x: hidden'>
+	<head>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width,initial-scale=1.0'>
+		<link rel='icon' href='http://localhost/brandin/v1/favicon.png'>
+
+		<link rel='stylesheet' href='http://localhost/brandin/v1/static/minify/a-materialize.min.css' type='text/css'>
+		<link rel='stylesheet' href='http://localhost/brandin/v1/static/minify/bootstrap.min.css' type='text/css'>
+		<link rel='stylesheet' href='http://localhost/brandin/v1/static/minify/fontawesome5/css/all.min.css' type='text/css'>
+		<link rel='stylesheet' href='style.css' type='text/css'>
+
+		<script src='http://localhost/git-repo/axe/v2.0.0/js/axe.js'></script>
+		<script src='http://localhost/git-repo/axe/v2.0.0/js/axe-easy.js'></script>
+		<script src='http://localhost/git-repo/axe/v2.0.0/js/axe-html.js'></script>
+		<script src='http://localhost/brandin/v1/static/minify/jquery.min.js'></script>
+		<script src='http://localhost/brandin/v1/static/minify/a-materialize.js'></script>
+		<script src='http://localhost/brandin/v1/static/minify/bootstrap.bundle.min.js'></script>
+		<script src='http://localhost/brandin/v1/static/minify/jaxify.js'></script>
+
+		<title>Card Game</title>
+	</head>
+	<body>
+		<div class="fixed-top w-100 h-100 bg-image" style="background-image: url('/img/background (73).jpg')">
+
+			<div id="player1" class="card-own player1">
+
+			</div>
+
+			<div id="card-deck" class="card-deck">
+
+			</div>
+
+			<div id="card-place" class="card-place">
+
+			</div>
+
+			<div id="player2" class="card-own player2">
+
+			</div>
+
+			<div id="score-place" class="score-place p-2">
+				<table>
+					<tr>
+						<th><h4>Round</h4></th>
+						<th class="border-left border-right p-3"><h4><b>P1</b></h4></th>
+						<th class="p-3"><h4><b>P2</b></h4></th>
+					</tr>
+					<tr>
+						<td><h5>1</h5></td>
+						<td class="border-left border-right p-3"><h5>24</h5></td>
+						<td class="p-3"><h5>53</h5></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<div id="dialog" class="fixed-top w-100 h-100 align-items-center justify-content-center d-flex" style="background-color: rgba(0,0,0,0.6);">
+			<div class="d-inline-block white p-4 px-5" axe-easy="rubber-band" axe-start style="border-radius: 20px;">
+				<h3 class="p-0 m-0">Welcome Back Players</h3>
+			</div>
+		</div>
+
+		<script src="game.js"></script>
+	</body>
+</html>

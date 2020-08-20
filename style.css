@@ -1,0 +1,108 @@
+.bg-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: green;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.sprite {
+	padding: 2rem;
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	display: inline-block;
+	width: 150px;
+	height: 130px;
+	cursor: pointer;
+}
+
+.card-own {
+	width: 754px;
+	position: absolute;
+	left: calc( 50% - 377px );
+	height: 130px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	border: 1px solid grey;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.card-own.player1 {
+	top: 20px;
+}
+
+.card-own.player2 {
+	bottom: 20px;
+}
+
+.card-deck {
+	width: 150px;
+	position: absolute;
+	left: 50px;
+	top: calc( 50% - 65px );
+	height: 130px;
+	border: 1px solid grey;
+	position: relative;
+}
+
+.card-place>*, .card-deck>*{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card-place {
+	width: 150px;
+	position: absolute;
+	left: calc( 50% - 75px );
+	top: calc( 50% - 65px );
+	height: 130px;
+	border: 1px solid grey;
+	position: relative;
+}
+
+.card-deck {
+	width: 150px;
+	position: absolute;
+	left: 50px;
+	top: calc( 50% - 65px );
+	height: 130px;
+	border: 1px solid grey;
+}
+
+.score-place {
+	width: 220px;
+	position: absolute;
+	right: 50px;
+	top: calc( 50% - 140px );
+	height: 280px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.black-card {
+	background: black;
+	color: white;
+}
+
+.yellow-card {
+	background: yellow;
+}
+
+.blue-card {
+	background: royalblue;
+}
+
+.green-card {
+	background: green;
+}
+
+.hide{
+	display: none !important;
+}
