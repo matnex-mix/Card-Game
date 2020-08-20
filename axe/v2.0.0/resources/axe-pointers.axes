@@ -1,0 +1,15 @@
+# Testing Axe-Pointers for V1.0.1
+
+dummy {
+	t: .2,
+	i: infinite,
+	a: 'AT20% t: tX-5%; AT40% t: tX--4%; AT60% t: tX-3%; AT80% t: tX--2%; AT100% t: tX-1%; ',
+	f: linear
+}
+
+heige {
+	t: 1,
+	i: infinite,
+	f: ease-in,
+	a: 'AT0% t: r--76; AT30% t: r-90; AT60% t: r-44; AT90% t: r-112;'
+}

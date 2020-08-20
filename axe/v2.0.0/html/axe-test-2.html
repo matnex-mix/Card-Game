@@ -1,0 +1,18 @@
+<html style="overflow: hidden;">
+	<head></head>
+	<body>
+		<script src="../js/axe.js"></script>
+		<script src="../js/axe-easy.js"></script>
+
+		<div id="animated" style="border: 4px groove indigo; padding: 1rem; border-radius: 20px; max-width: 70%; margin: 1rem auto ; text-align: center; ">
+			NOTHING <br/>
+			<select id="select"></select>
+		</div>
+
+		<script type="text/javascript">
+			for(x in $xeasy) {
+				document.getElementById("select").innerHTML += '<option onclick="$XE.easy(\''+x+'\', {t: 3}).apply(\'#animated\').start()">'+x+'</option>';
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+<html style="verflow: hidden;">
+	<head></head>
+	<body>
+		<script src="../js/axe.js"></script>
+		<script src="../js/axe-easy.js"></script>
+		<script src="../js/axe-html.js"></script>
+
+		<div id="animated" style="border: 4px groove indigo; padding: 1rem; border-radius: 20px; max-width: 70%; margin: 100vh auto ; text-align: center; height: 100vh;">
+			ANIMATED
+		</div>
+
+		<div id="animated-controller" style="border: 4px groove indigo; padding: 1rem; border-radius: 20px; max-width: 70%; margin: 100vh auto ; text-align: center; ">
+			CONTROLLER
+		</div>
+
+		<script type="text/javascript">
+			anim = $XE.easy('wobble');
+			anim_ctrl = anim.apply('#animated');
+			anim_ctrl.moment('restart,click,div');
+		</script>
+	</body>
+</html>
